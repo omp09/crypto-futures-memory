@@ -27,8 +27,18 @@ export async function fetchMarketStates(symbols = []) {
   const requestedSymbols = normalizeSymbols(symbols);
   const settledStates = await Promise.allSettled(requestedSymbols.map(fetchSymbolState));
   return settledStates
-    .filter((result) => result.status === "fulfilled")
-    .map((result) => result.value);
+    .map((result, index) => ({ result, symbol: requestedSymbols[index] }))
+    .filter(({ result, symbol }) => {
+      if (result.status === "fulfilled") {
+        return true;
+      }
+      console.warn("Market state fetch failed", {
+        symbol,
+        error: result.reason?.message ?? String(result.reason),
+      });
+      return false;
+    })
+    .map(({ result }) => result.value);
 }
 
 export function buildMarketBriefFromStates(states) {
@@ -362,11 +372,21 @@ async function fetchJson(path, params) {
   }
 
   const response = await fetch(url);
-  const payload = await response.json();
+  const rawPayload = await response.text();
+  const payload = parseJsonPayload(rawPayload);
   if (!response.ok) {
-    throw new Error(payload.msg ?? `Binance request failed: ${path}`);
+    const message = payload?.msg ?? rawPayload.slice(0, 160) ?? "No response body";
+    throw new Error(`Binance request failed: ${response.status} ${response.statusText} ${path} - ${message}`);
   }
   return payload;
+}
+
+function parseJsonPayload(rawPayload) {
+  try {
+    return JSON.parse(rawPayload);
+  } catch {
+    return null;
+  }
 }
 
 function describeDirection(value) {
