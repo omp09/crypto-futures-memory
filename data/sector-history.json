@@ -1709,6 +1709,291 @@
         "POPCAT"
       ],
       "available_assets": 4
+    },
+    {
+      "timestamp": "2026-06-10T14:21:01.405Z",
+      "sector_id": "iso20022-payments",
+      "sector_name": "ISO20022 / Payments",
+      "breadth": {
+        "positive": 1,
+        "available": 6,
+        "ratio": 0.16666666666666666
+      },
+      "average_return": -1.6836666666666664,
+      "median_return": -1.2515,
+      "label": "Narrow Participation",
+      "leaders": [
+        "ALGO",
+        "QNT",
+        "IOTA"
+      ],
+      "available_assets": 6
+    },
+    {
+      "timestamp": "2026-06-10T14:21:01.405Z",
+      "sector_id": "lending",
+      "sector_name": "Lending",
+      "breadth": {
+        "positive": 4,
+        "available": 4,
+        "ratio": 1
+      },
+      "average_return": 3.1759999999999997,
+      "median_return": 2.4859999999999998,
+      "label": "Strong",
+      "leaders": [
+        "CRV",
+        "COMP",
+        "AAVE"
+      ],
+      "available_assets": 4
+    },
+    {
+      "timestamp": "2026-06-10T14:21:01.405Z",
+      "sector_id": "defi-core",
+      "sector_name": "DeFi Core",
+      "breadth": {
+        "positive": 6,
+        "available": 7,
+        "ratio": 0.8571428571428571
+      },
+      "average_return": 2.300857142857143,
+      "median_return": 2.007,
+      "label": "Strong",
+      "leaders": [
+        "CRV",
+        "COMP",
+        "SNX"
+      ],
+      "available_assets": 7
+    },
+    {
+      "timestamp": "2026-06-10T14:21:01.405Z",
+      "sector_id": "layer-2",
+      "sector_name": "Layer 2",
+      "breadth": {
+        "positive": 5,
+        "available": 6,
+        "ratio": 0.8333333333333334
+      },
+      "average_return": 2.3991666666666664,
+      "median_return": 1.1520000000000001,
+      "label": "Strong",
+      "leaders": [
+        "ZK",
+        "STRK",
+        "MANTA"
+      ],
+      "available_assets": 6
+    },
+    {
+      "timestamp": "2026-06-10T14:21:01.405Z",
+      "sector_id": "bitcoin-ecosystem",
+      "sector_name": "Bitcoin Ecosystem",
+      "breadth": {
+        "positive": 3,
+        "available": 4,
+        "ratio": 0.75
+      },
+      "average_return": 0.9917499999999998,
+      "median_return": 1.162,
+      "label": "Strong",
+      "leaders": [
+        "RUNE",
+        "ORDI",
+        "STX"
+      ],
+      "available_assets": 4
+    },
+    {
+      "timestamp": "2026-06-10T14:21:01.405Z",
+      "sector_id": "dex",
+      "sector_name": "DEX",
+      "breadth": {
+        "positive": 5,
+        "available": 7,
+        "ratio": 0.7142857142857143
+      },
+      "average_return": 1.0855714285714284,
+      "median_return": 0.507,
+      "label": "Improving",
+      "leaders": [
+        "CRV",
+        "RUNE",
+        "CAKE"
+      ],
+      "available_assets": 7
+    },
+    {
+      "timestamp": "2026-06-10T14:21:01.405Z",
+      "sector_id": "restaking-liquid-staking",
+      "sector_name": "Restaking / Liquid Staking",
+      "breadth": {
+        "positive": 4,
+        "available": 6,
+        "ratio": 0.6666666666666666
+      },
+      "average_return": 0.052833333333333364,
+      "median_return": 0.38449999999999995,
+      "label": "Improving",
+      "leaders": [
+        "SSV",
+        "ETHFI",
+        "LDO"
+      ],
+      "available_assets": 6
+    },
+    {
+      "timestamp": "2026-06-10T14:21:01.405Z",
+      "sector_id": "gaming",
+      "sector_name": "Gaming",
+      "breadth": {
+        "positive": 4,
+        "available": 8,
+        "ratio": 0.5
+      },
+      "average_return": 0.11812500000000005,
+      "median_return": 0.18299999999999994,
+      "label": "Improving",
+      "leaders": [
+        "IMX",
+        "MANA",
+        "SAND"
+      ],
+      "available_assets": 8
+    },
+    {
+      "timestamp": "2026-06-10T14:21:01.405Z",
+      "sector_id": "infrastructure",
+      "sector_name": "Infrastructure",
+      "breadth": {
+        "positive": 4,
+        "available": 8,
+        "ratio": 0.5
+      },
+      "average_return": 0.5475,
+      "median_return": 0.07199999999999998,
+      "label": "Narrow Participation",
+      "leaders": [
+        "ZETA",
+        "RUNE",
+        "ANKR"
+      ],
+      "available_assets": 8
+    },
+    {
+      "timestamp": "2026-06-10T14:21:01.405Z",
+      "sector_id": "oracle",
+      "sector_name": "Oracle",
+      "breadth": {
+        "positive": 2,
+        "available": 5,
+        "ratio": 0.4
+      },
+      "average_return": 1.0466000000000002,
+      "median_return": -0.181,
+      "label": "Narrow Participation",
+      "leaders": [
+        "PYTH",
+        "TRB",
+        "BAND"
+      ],
+      "available_assets": 5
+    },
+    {
+      "timestamp": "2026-06-10T14:21:01.405Z",
+      "sector_id": "depin",
+      "sector_name": "DePIN",
+      "breadth": {
+        "positive": 1,
+        "available": 6,
+        "ratio": 0.16666666666666666
+      },
+      "average_return": -1.0673333333333332,
+      "median_return": -1.295,
+      "label": "Narrow Participation",
+      "leaders": [
+        "STORJ",
+        "FIL",
+        "IOTX"
+      ],
+      "available_assets": 6
+    },
+    {
+      "timestamp": "2026-06-10T14:21:01.405Z",
+      "sector_id": "rwa",
+      "sector_name": "RWA",
+      "breadth": {
+        "positive": 1,
+        "available": 5,
+        "ratio": 0.2
+      },
+      "average_return": -1.5181999999999998,
+      "median_return": -2.027,
+      "label": "Narrow Participation",
+      "leaders": [
+        "POLYX",
+        "CFG",
+        "ONDO"
+      ],
+      "available_assets": 5
+    },
+    {
+      "timestamp": "2026-06-10T14:21:01.405Z",
+      "sector_id": "layer-1",
+      "sector_name": "Layer 1",
+      "breadth": {
+        "positive": 4,
+        "available": 10,
+        "ratio": 0.4
+      },
+      "average_return": -0.9158000000000002,
+      "median_return": -0.663,
+      "label": "Mixed",
+      "leaders": [
+        "ATOM",
+        "SUI",
+        "SEI"
+      ],
+      "available_assets": 10
+    },
+    {
+      "timestamp": "2026-06-10T14:21:01.405Z",
+      "sector_id": "memes",
+      "sector_name": "Memes",
+      "breadth": {
+        "positive": 0,
+        "available": 4,
+        "ratio": 0
+      },
+      "average_return": -2.092,
+      "median_return": -1.022,
+      "label": "Weak",
+      "leaders": [
+        "POPCAT",
+        "DOGE",
+        "WIF"
+      ],
+      "available_assets": 4
+    },
+    {
+      "timestamp": "2026-06-10T14:21:01.405Z",
+      "sector_id": "ai",
+      "sector_name": "AI",
+      "breadth": {
+        "positive": 0,
+        "available": 7,
+        "ratio": 0
+      },
+      "average_return": -2.5024285714285712,
+      "median_return": -2.091,
+      "label": "Weak",
+      "leaders": [
+        "NEAR",
+        "TAO",
+        "RENDER"
+      ],
+      "available_assets": 7
     }
   ]
 }
