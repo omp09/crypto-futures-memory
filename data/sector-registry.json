@@ -1,0 +1,232 @@
+{
+  "version": 1,
+  "sectors": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "active",
+      "aliases": ["Artificial Intelligence", "AI Infrastructure"],
+      "members": [
+        { "symbol": "TAOUSDT", "weight": 1, "confidence": 0.95 },
+        { "symbol": "FETUSDT", "weight": 1, "confidence": 0.9 },
+        { "symbol": "RNDRUSDT", "weight": 1, "confidence": 0.85 },
+        { "symbol": "RENDERUSDT", "weight": 1, "confidence": 0.85 },
+        { "symbol": "NEARUSDT", "weight": 1, "confidence": 0.7 },
+        { "symbol": "WLDUSDT", "weight": 1, "confidence": 0.8 },
+        { "symbol": "ARKMUSDT", "weight": 1, "confidence": 0.75 },
+        { "symbol": "GRTUSDT", "weight": 1, "confidence": 0.7 },
+        { "symbol": "AIOZUSDT", "weight": 1, "confidence": 0.7 }
+      ]
+    },
+    {
+      "id": "memes",
+      "name": "Memes",
+      "status": "active",
+      "aliases": ["Meme Coins"],
+      "members": [
+        { "symbol": "DOGEUSDT", "weight": 1, "confidence": 0.98 },
+        { "symbol": "SHIBUSDT", "weight": 1, "confidence": 0.98 },
+        { "symbol": "PEPEUSDT", "weight": 1, "confidence": 0.98 },
+        { "symbol": "WIFUSDT", "weight": 1, "confidence": 0.95 },
+        { "symbol": "BONKUSDT", "weight": 1, "confidence": 0.95 },
+        { "symbol": "FLOKIUSDT", "weight": 1, "confidence": 0.92 },
+        { "symbol": "MEMEUSDT", "weight": 1, "confidence": 0.9 },
+        { "symbol": "POPCATUSDT", "weight": 1, "confidence": 0.9 }
+      ]
+    },
+    {
+      "id": "layer-1",
+      "name": "Layer 1",
+      "status": "active",
+      "aliases": ["L1", "Alternative L1"],
+      "members": [
+        { "symbol": "SOLUSDT", "weight": 1, "confidence": 0.95 },
+        { "symbol": "BNBUSDT", "weight": 1, "confidence": 0.95 },
+        { "symbol": "ADAUSDT", "weight": 1, "confidence": 0.95 },
+        { "symbol": "AVAXUSDT", "weight": 1, "confidence": 0.95 },
+        { "symbol": "SUIUSDT", "weight": 1, "confidence": 0.9 },
+        { "symbol": "SEIUSDT", "weight": 1, "confidence": 0.9 },
+        { "symbol": "INJUSDT", "weight": 1, "confidence": 0.85 },
+        { "symbol": "APTUSDT", "weight": 1, "confidence": 0.85 },
+        { "symbol": "TONUSDT", "weight": 1, "confidence": 0.8 },
+        { "symbol": "ATOMUSDT", "weight": 1, "confidence": 0.8 }
+      ]
+    },
+    {
+      "id": "layer-2",
+      "name": "Layer 2",
+      "status": "active",
+      "aliases": ["L2", "Scaling"],
+      "members": [
+        { "symbol": "OPUSDT", "weight": 1, "confidence": 0.95 },
+        { "symbol": "ARBUSDT", "weight": 1, "confidence": 0.95 },
+        { "symbol": "STRKUSDT", "weight": 1, "confidence": 0.9 },
+        { "symbol": "MANTAUSDT", "weight": 1, "confidence": 0.8 },
+        { "symbol": "METISUSDT", "weight": 1, "confidence": 0.8 },
+        { "symbol": "ZKUSDT", "weight": 1, "confidence": 0.8 },
+        { "symbol": "BLASTUSDT", "weight": 1, "confidence": 0.75 }
+      ]
+    },
+    {
+      "id": "defi-core",
+      "name": "DeFi Core",
+      "status": "active",
+      "aliases": ["DeFi"],
+      "members": [
+        { "symbol": "UNIUSDT", "weight": 1, "confidence": 0.95 },
+        { "symbol": "AAVEUSDT", "weight": 1, "confidence": 0.95 },
+        { "symbol": "MKRUSDT", "weight": 1, "confidence": 0.9 },
+        { "symbol": "CRVUSDT", "weight": 1, "confidence": 0.9 },
+        { "symbol": "COMPUSDT", "weight": 1, "confidence": 0.85 },
+        { "symbol": "SNXUSDT", "weight": 1, "confidence": 0.85 },
+        { "symbol": "1INCHUSDT", "weight": 1, "confidence": 0.8 },
+        { "symbol": "LDOUSDT", "weight": 1, "confidence": 0.8 }
+      ]
+    },
+    {
+      "id": "dex",
+      "name": "DEX",
+      "status": "active",
+      "aliases": ["Decentralized Exchange"],
+      "members": [
+        { "symbol": "UNIUSDT", "weight": 1, "confidence": 0.95 },
+        { "symbol": "CAKEUSDT", "weight": 1, "confidence": 0.9 },
+        { "symbol": "CRVUSDT", "weight": 1, "confidence": 0.9 },
+        { "symbol": "DYDXUSDT", "weight": 1, "confidence": 0.9 },
+        { "symbol": "RUNEUSDT", "weight": 1, "confidence": 0.85 },
+        { "symbol": "1INCHUSDT", "weight": 1, "confidence": 0.8 },
+        { "symbol": "GMXUSDT", "weight": 1, "confidence": 0.8 }
+      ]
+    },
+    {
+      "id": "lending",
+      "name": "Lending",
+      "status": "active",
+      "aliases": ["Credit"],
+      "members": [
+        { "symbol": "AAVEUSDT", "weight": 1, "confidence": 0.95 },
+        { "symbol": "COMPUSDT", "weight": 1, "confidence": 0.9 },
+        { "symbol": "MKRUSDT", "weight": 1, "confidence": 0.85 },
+        { "symbol": "CRVUSDT", "weight": 1, "confidence": 0.65 },
+        { "symbol": "LQTYUSDT", "weight": 1, "confidence": 0.8 }
+      ]
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle",
+      "status": "active",
+      "aliases": ["Data Oracle"],
+      "members": [
+        { "symbol": "LINKUSDT", "weight": 1, "confidence": 0.98 },
+        { "symbol": "PYTHUSDT", "weight": 1, "confidence": 0.95 },
+        { "symbol": "API3USDT", "weight": 1, "confidence": 0.9 },
+        { "symbol": "BANDUSDT", "weight": 1, "confidence": 0.85 },
+        { "symbol": "TRBUSDT", "weight": 1, "confidence": 0.8 }
+      ]
+    },
+    {
+      "id": "rwa",
+      "name": "RWA",
+      "status": "active",
+      "aliases": ["Real World Assets"],
+      "members": [
+        { "symbol": "ONDOUSDT", "weight": 1, "confidence": 0.95 },
+        { "symbol": "PENDLEUSDT", "weight": 1, "confidence": 0.8 },
+        { "symbol": "MKRUSDT", "weight": 1, "confidence": 0.75 },
+        { "symbol": "POLYXUSDT", "weight": 1, "confidence": 0.85 },
+        { "symbol": "RSRUSDT", "weight": 1, "confidence": 0.75 },
+        { "symbol": "CFGUSDT", "weight": 1, "confidence": 0.7 }
+      ]
+    },
+    {
+      "id": "depin",
+      "name": "DePIN",
+      "status": "active",
+      "aliases": ["Decentralized Physical Infrastructure"],
+      "members": [
+        { "symbol": "FILUSDT", "weight": 1, "confidence": 0.9 },
+        { "symbol": "HNTUSDT", "weight": 1, "confidence": 0.9 },
+        { "symbol": "IOTXUSDT", "weight": 1, "confidence": 0.85 },
+        { "symbol": "AKTUSDT", "weight": 1, "confidence": 0.85 },
+        { "symbol": "AIOZUSDT", "weight": 1, "confidence": 0.8 },
+        { "symbol": "ARUSDT", "weight": 1, "confidence": 0.8 },
+        { "symbol": "STORJUSDT", "weight": 1, "confidence": 0.8 },
+        { "symbol": "RENDERUSDT", "weight": 1, "confidence": 0.75 }
+      ]
+    },
+    {
+      "id": "gaming",
+      "name": "Gaming",
+      "status": "active",
+      "aliases": ["GameFi"],
+      "members": [
+        { "symbol": "IMXUSDT", "weight": 1, "confidence": 0.95 },
+        { "symbol": "GALAUSDT", "weight": 1, "confidence": 0.95 },
+        { "symbol": "SANDUSDT", "weight": 1, "confidence": 0.9 },
+        { "symbol": "MANAUSDT", "weight": 1, "confidence": 0.9 },
+        { "symbol": "AXSUSDT", "weight": 1, "confidence": 0.9 },
+        { "symbol": "RONINUSDT", "weight": 1, "confidence": 0.85 },
+        { "symbol": "PIXELUSDT", "weight": 1, "confidence": 0.8 },
+        { "symbol": "YGGUSDT", "weight": 1, "confidence": 0.8 }
+      ]
+    },
+    {
+      "id": "restaking-liquid-staking",
+      "name": "Restaking / Liquid Staking",
+      "status": "active",
+      "aliases": ["Restaking", "Liquid Staking"],
+      "members": [
+        { "symbol": "LDOUSDT", "weight": 1, "confidence": 0.95 },
+        { "symbol": "EIGENUSDT", "weight": 1, "confidence": 0.95 },
+        { "symbol": "ETHFIUSDT", "weight": 1, "confidence": 0.9 },
+        { "symbol": "PENDLEUSDT", "weight": 1, "confidence": 0.8 },
+        { "symbol": "RPLUSDT", "weight": 1, "confidence": 0.8 },
+        { "symbol": "SSVUSDT", "weight": 1, "confidence": 0.8 }
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "status": "active",
+      "aliases": ["Middleware"],
+      "members": [
+        { "symbol": "LINKUSDT", "weight": 1, "confidence": 0.85 },
+        { "symbol": "GRTUSDT", "weight": 1, "confidence": 0.8 },
+        { "symbol": "ARUSDT", "weight": 1, "confidence": 0.8 },
+        { "symbol": "FILUSDT", "weight": 1, "confidence": 0.8 },
+        { "symbol": "RUNEUSDT", "weight": 1, "confidence": 0.75 },
+        { "symbol": "ANKRUSDT", "weight": 1, "confidence": 0.75 },
+        { "symbol": "ZETAUSDT", "weight": 1, "confidence": 0.75 },
+        { "symbol": "TIAUSDT", "weight": 1, "confidence": 0.8 }
+      ]
+    },
+    {
+      "id": "bitcoin-ecosystem",
+      "name": "Bitcoin Ecosystem",
+      "status": "active",
+      "aliases": ["Bitcoin Beta", "Ordinals"],
+      "members": [
+        { "symbol": "ORDIUSDT", "weight": 1, "confidence": 0.95 },
+        { "symbol": "SATSUSDT", "weight": 1, "confidence": 0.9 },
+        { "symbol": "STXUSDT", "weight": 1, "confidence": 0.9 },
+        { "symbol": "RUNEUSDT", "weight": 1, "confidence": 0.7 },
+        { "symbol": "BCHUSDT", "weight": 1, "confidence": 0.7 }
+      ]
+    },
+    {
+      "id": "iso20022-payments",
+      "name": "ISO20022 / Payments",
+      "status": "active",
+      "aliases": ["ISO20022", "Payments"],
+      "type": "narrative-sector",
+      "members": [
+        { "symbol": "XRPUSDT", "weight": 1, "confidence": 0.95 },
+        { "symbol": "XLMUSDT", "weight": 1, "confidence": 0.9 },
+        { "symbol": "HBARUSDT", "weight": 1, "confidence": 0.85 },
+        { "symbol": "ALGOUSDT", "weight": 1, "confidence": 0.8 },
+        { "symbol": "QNTUSDT", "weight": 1, "confidence": 0.75 },
+        { "symbol": "IOTAUSDT", "weight": 1, "confidence": 0.75 }
+      ]
+    }
+  ]
+}

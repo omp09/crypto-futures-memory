@@ -1,0 +1,11 @@
+{
+  "name": "crypto-futures-memory",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Hourly crypto futures market and sector memory collector",
+  "scripts": {
+    "collect": "node src/collect-memory.js",
+    "test": "node --test test/*.test.js"
+  }
+}

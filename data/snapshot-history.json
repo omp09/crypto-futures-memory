@@ -1,0 +1,94 @@
+{
+  "snapshots": [
+    {
+      "timestamp": "2026-06-07T22:27:16.494Z",
+      "symbol": "BTCUSDT",
+      "price": 63000,
+      "funding": 0.00003744,
+      "open_interest": 98082.59,
+      "volume": 12896613306.96,
+      "basis": -0.0002346665551726242
+    },
+    {
+      "timestamp": "2026-06-07T22:27:16.494Z",
+      "symbol": "ETHUSDT",
+      "price": 1674.18,
+      "funding": -0.00015732,
+      "open_interest": 2260426.657,
+      "volume": 9612983527.07,
+      "basis": -0.0003772423207372319
+    },
+    {
+      "timestamp": "2026-06-08T14:58:56.637Z",
+      "symbol": "BTCUSDT",
+      "price": 63931.5,
+      "funding": 0.00000562,
+      "open_interest": 98748.065,
+      "volume": 13570848069.46,
+      "basis": -0.0006059105014007666
+    },
+    {
+      "timestamp": "2026-06-08T14:58:56.637Z",
+      "symbol": "ETHUSDT",
+      "price": 1690.14,
+      "funding": -0.00003907,
+      "open_interest": 2268069.223,
+      "volume": 10093436060.42,
+      "basis": -0.0006501614462654338
+    },
+    {
+      "timestamp": "2026-06-08T16:50:11.952Z",
+      "symbol": "BTCUSDT",
+      "price": 63595.4,
+      "funding": -0.00000318,
+      "open_interest": 98536.379,
+      "volume": 14048057996.51,
+      "basis": -0.0005255641357070489
+    },
+    {
+      "timestamp": "2026-06-08T16:50:11.952Z",
+      "symbol": "ETHUSDT",
+      "price": 1689.47,
+      "funding": -0.00006081,
+      "open_interest": 2271679.722,
+      "volume": 10597831913.52,
+      "basis": -0.0006237680221172452
+    },
+    {
+      "timestamp": "2026-06-08T17:50:20.995Z",
+      "symbol": "BTCUSDT",
+      "price": 63445.8,
+      "funding": -0.00000416,
+      "open_interest": 98391.058,
+      "volume": 14298990030.16,
+      "basis": -0.0003565165577583916
+    },
+    {
+      "timestamp": "2026-06-08T17:50:20.995Z",
+      "symbol": "ETHUSDT",
+      "price": 1683.91,
+      "funding": -0.00008184,
+      "open_interest": 2263769.824,
+      "volume": 10847814710.98,
+      "basis": -0.00030774362305283006
+    },
+    {
+      "timestamp": "2026-06-09T06:56:03.315Z",
+      "symbol": "BTCUSDT",
+      "price": 63269.8,
+      "funding": 0.00001792,
+      "open_interest": 98592.358,
+      "volume": 11732933928.74,
+      "basis": -0.00018125108480519225
+    },
+    {
+      "timestamp": "2026-06-09T06:56:03.315Z",
+      "symbol": "ETHUSDT",
+      "price": 1685.45,
+      "funding": -0.00002203,
+      "open_interest": 2257584.185,
+      "volume": 9372304139.09,
+      "basis": -0.00024826377350190253
+    }
+  ]
+}
